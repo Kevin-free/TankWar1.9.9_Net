@@ -145,7 +145,7 @@ public class TankClient extends Frame{
 		TextField tfIP = new TextField("127.0.0.1",12);
 		TextField tfPort = new TextField(""+TankServer.TCP_PORT,4);
 		TextField tfMyUdpPort = new TextField("2223",4);
-		Button b = new Button("确定");
+		Button b = new Button("Connect");
 		
 		public ConnDialog() {
 			super(TankClient.this,true);
